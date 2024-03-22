@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasbeeh Counter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="row">
+    <h1>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
+  </div>
+
+  <div class="row">
+    <div class="box">
+    <div class="input-wrapper">
+      <h3>سُبْحَانَ ٱللَّٰهِ</h3>
+      <span id="text">0</span>
+    </div>
+    <div class="btn-wrapper">
+      <button onclick="inc();"><i class='bx bxs-skip-next-circle'></i></button>
+      <button onclick="reset();"><i class='bx bx-reset'></i></button>
+    </div>
+    </div>
+
+    <div class="box">
+      <div class="input-wrapper">
+        <h3>ٱلْحَمْدُ لِلَّٰهِ</h3>
+        <span id="text2">0</span>
+      </div>
+      <div class="btn-wrapper">
+        <button onclick="inc2();"><i class='bx bxs-skip-next-circle'></i></button>
+        <button onclick="reset2();"><i class='bx bx-reset'></i></button>
+      </div>
+      </div>
+
+      <div class="box">
+        <div class="input-wrapper">
+          <h3>أَسْتَغْفِرُ ٱللّٰهَ</h3>
+          <span id="text3">0</span>
+        </div>
+        <div class="btn-wrapper">
+          <button onclick="inc3();"><i class='bx bxs-skip-next-circle'></i></button>
+          <button onclick="reset3();"><i class='bx bx-reset'></i></button>
+        </div>
+        </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

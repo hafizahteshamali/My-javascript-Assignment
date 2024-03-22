@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/desktop-wallpaper-mecca-1920x1080-makkah-and-madina.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row .box{
+    width: 25%;
+    padding: 10px;
+}
+.box .input-wrapper{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 255, 0.185);
+    backdrop-filter: blur(2px);
+}
+.box .input-wrapper span, .box .input-wrapper h3{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+.box .btn-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box .btn-wrapper button{
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 255, 0.425);
+    backdrop-filter: blur(20px);
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.box .btn-wrapper button:hover{
+    background-color: rgba(0, 0, 0, 0.39);
+    transition: .5s;
+    backdrop-filter: blur(20px);
+}
